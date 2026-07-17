@@ -9,3 +9,7 @@
 
 crash.log
 crash.*.log
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
