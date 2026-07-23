@@ -1,6 +1,6 @@
 variable "europe_region" {
   type    = string
-  default = "eu-north-1"
+  default = "ap-south-1"
 }
 
 variable "us_region" {
@@ -8,17 +8,17 @@ variable "us_region" {
   default = "us-east-1"
 }
 
-variable "europe_profile" {
+variable "ap_profile" {
   type    = string
-  default = "europe-user"
+  default = "ap-south-1"
 }
 
 variable "us_profile" {
   type    = string
-  default = "us-user"
+  default = "us-east-1"
 }
 
-variable "europe_vpc_cidr" {
+variable "ap_vpc_cidr" {
   type    = string
   default = "10.0.0.0/16"
 }

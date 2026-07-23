@@ -2,15 +2,15 @@
 # VPC 1 - eu-north-1
 # ==================================
 
-resource "aws_vpc" "europe_vpc" {
+resource "aws_vpc" "ap_vpc" {
   provider = aws
 
-  cidr_block           = var.europe_vpc_cidr
+  cidr_block           = var.ap_vpc_cidr
   enable_dns_support   = true
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Europe-VPC"
+    Name = "ap-VPC"
   }
 }
 

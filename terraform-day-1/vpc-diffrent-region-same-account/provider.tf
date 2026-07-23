@@ -7,10 +7,10 @@ terraform {
 }
 
 # IAM User 1
-# Region: eu-north-1
+# Region: ap-south-1
 provider "aws" {
   region  = var.europe_region
-  profile = var.europe_profile
+  profile = var.ap_profile
 }
 
 # IAM User 2
